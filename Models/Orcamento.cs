@@ -7,7 +7,9 @@ public record Orcamento
     public int FornecedorId {get; set;}
     public string? DescricaoDoServico {get; set;}
     public int ValorTotal {get; set;}
-    public DateOnly DataCriacao {get; set;}
-    public DateOnly DataExpiracao {get; set;}
+    public string? DataCriacao {get; set;}
+    //public DateOnly DataCriacao {get; set;}
+    public string? DataExpiracao {get; set;}
+    //public DateOnly DataExpiracao {get; set;}
     
 }

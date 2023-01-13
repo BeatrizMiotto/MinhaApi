@@ -10,6 +10,9 @@ public class HomeController : ControllerBase
     [HttpGet]
     public ActionResult Index()
     {
-       return StatusCode(200, new Home{Mensagem = "Essa é minha Api"}); 
+        return StatusCode(200, new Home{
+            Mensagem = "Olá! Essa é minha Api!!!"
+        });
     }
+    
 }
